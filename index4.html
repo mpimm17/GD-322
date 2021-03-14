@@ -3,17 +3,25 @@
 <head>
 <style>
 .item1 { grid-area: header; }
-.item2 { grid-area: menu; }
-.item3 { grid-area: main; }
-.item4 { grid-area: right; }
-.item5 { grid-area: footer; }
+.item2 { grid-area: sidebar1; }
+.item3 { grid-area: sidebar2; }
+.item4 { grid-area: main; }
+.item5 { grid-area: div; }
+.item6 { grid-area: sidebar1;}
+.item7 { grid-area: sidebar2;}
+.item8 { grid-area: sidebar1;}
+.item9 { grid-area: main;}
+.item10 { grid-area: footer;}
 
 .grid-container {
   display: grid;
   grid-template-areas:
     'header header header header header header'
-    'menu main main main right right'
-    'menu footer footer footer footer footer';
+    'sidebar1 sidebar1 sidebar1 sidebar2 sidebar2 sidebar2'
+    'main main main main main div'
+    'sidebar1 sidebar1 sidebar2 sidebar2 sidebar1 sidebar1'
+    'main main main main main main'
+    'footer footer footer footer footer footer';
   grid-gap: 10px;
   background-color: #2196F3;
   padding: 10px;
@@ -32,10 +40,15 @@
 
 <div class="grid-container">
   <div class="item1">Header</div>
-  <div class="item2">Menu</div>
-  <div class="item3">Main</div>  
-  <div class="item4">Right</div>
-  <div class="item5">Footer</div>
+  <div class="item2">Sidebar1</div>
+  <div class="item3">Sidebar2</div>  
+  <div class="item4">Main</div>
+  <div class="item5">Div</div>
+  <div class="item6">Sidebar1</div>
+  <div class="item7">Sidebar2</div>
+  <div class="item8">Sidebar1</div>
+  <div class="item9">Main</div>
+  <div class="item10">Footer</div>
 </div>
 
 </body>
