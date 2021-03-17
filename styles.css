@@ -8,39 +8,39 @@
 }
 
 header.wireframe {
-    background-color: #488CCA;
+    background-color: #ff0000;
 }
 
 aside.wireframe {
-    background-color: #EAAA35;
+    background-color: #ffa600;
 }
 aside2.wireframe {
     background-color: #FDE231;
 }
 aside3.wireframe {
-    background-color:  #EAAA35;
+    background-color:  #ffa600;
 }
 aside4.wireframe {
     background-color: #FDE231;
 }
 aside5.wireframe {
-    background-color:  #EAAA35;
+    background-color:  #ffa600;
 }
 
 main.wireframe {
-    background-color: #66BCB5;
+    background-color: #007a70;
 }
 main2.wireframe {
-    background-color: #66BCB5;
+    background-color: #00a194;
 }
 
 div.wireframe{
-	background-color: #488CCA;
+	background-color: #46a5ff;
 }
 
 
 footer.wireframe {
-    background-color: #488CCA;  
+    background-color: #0084ff;  
 }
 
 
