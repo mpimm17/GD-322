@@ -4,7 +4,7 @@
     padding: 5rem;
     border-radius: 0;
 	text-align: center;
-    font-size: 15pt;
+    font-size: 25pt;
 }
 
 header.wireframe {
@@ -44,7 +44,6 @@ footer.wireframe {
 }
 
 
-/* CSS Grid layout. */
 .wireframe-grid {
     width: 95%;
     margin: 0 auto;
