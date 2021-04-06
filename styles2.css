@@ -1,0 +1,21 @@
+.wireframe {
+    color: rgba(255, 255, 255, 1);
+    padding: 5rem;
+    border-radius: 0;
+	text-align: center;
+    font-size: 30pt;
+}
+main.wireframe {
+    background-color: #007a70;
+}
+.wireframe-grid {
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 6fr 6fr 6fr 6fr 6fr 6fr;
+}
+.wireframe-grid header,
+.wireframe-grid footer,
+.wireframe-grid main2{
+	grid-column: span 6;
+}
