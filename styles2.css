@@ -10,6 +10,11 @@
 .wireframe-grid main{
 	grid-column: span 6;
 }
+.wireframe-grid header,
+.wireframe-grid footer,
+.wireframe-grid main2{
+	grid-column: span 6;
+}
 
 header.wireframe {
     background-color: #636363;
