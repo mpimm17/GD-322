@@ -12,11 +12,11 @@
 }
 
 header.wireframe {
-    background-color: #ff0000;
+    background-color: #636363;
 }
 
 main.wireframe {
-    background-color: #707070;
+    background-color: #ff5050;
 }
 .wireframe-grid {
     width: 95%;
