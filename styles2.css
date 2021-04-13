@@ -7,7 +7,7 @@
 }
 .wireframe-grid header,
 .wireframe-grid footer,
-.wireframe-grid main2{
+.wireframe-grid main{
 	grid-column: span 6;
 }
 
@@ -26,6 +26,6 @@ main.wireframe {
 }
 .wireframe-grid header,
 .wireframe-grid footer,
-.wireframe-grid main2{
+.wireframe-grid main{
 	grid-column: span 6;
 }
