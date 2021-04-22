@@ -1,0 +1,53 @@
+.shoes {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%
+}
+
+.wireframe {
+    color: rgba(255, 255, 255, 1);
+    padding: 5rem;
+    border-radius: 0;
+	text-align: center;
+    font-size: 30pt;
+}
+.wireframe-grid header,
+.wireframe-grid footer,
+.wireframe-grid main{
+	grid-column: span 5;
+}
+.wireframe-grid header,
+.wireframe-grid footer,
+.wireframe-grid main2{
+	grid-column: span 5;
+}
+
+header.wireframe {
+    background-color: #636363;
+}
+
+main.wireframe {
+    background-color: #ff5050;
+}
+
+main2.wireframe {
+    background-color: #507fff;
+}
+
+footer.wireframe {
+    background-color: #00af43;
+}
+
+.wireframe-grid {
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 5fr 5fr 5fr 5fr 5fr ;
+}
+.wireframe-grid header,
+.wireframe-grid footer,
+.wireframe-grid main{
+	grid-column: span 5;
+}
+
