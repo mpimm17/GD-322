@@ -1,3 +1,10 @@
+.shoes {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%
+}
+
 .wireframe {
     color: rgba(255, 255, 255, 1);
     padding: 5rem;
@@ -8,12 +15,12 @@
 .wireframe-grid header,
 .wireframe-grid footer,
 .wireframe-grid main{
-	grid-column: span 6;
+	grid-column: span 5;
 }
 .wireframe-grid header,
 .wireframe-grid footer,
 .wireframe-grid main2{
-	grid-column: span 6;
+	grid-column: span 5;
 }
 
 header.wireframe {
@@ -36,17 +43,11 @@ footer.wireframe {
     width: 95%;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 6fr 6fr 6fr 6fr 6fr 6fr;
+    grid-template-columns: 5fr 5fr 5fr 5fr 5fr ;
 }
 .wireframe-grid header,
 .wireframe-grid footer,
 .wireframe-grid main{
-	grid-column: span 6;
+	grid-column: span 5;
 }
 
-.shoes {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%
-}
